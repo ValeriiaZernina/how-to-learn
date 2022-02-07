@@ -140,6 +140,7 @@
 	margin-bottom: 0;
 }
 
+
 /* таблица Цифры и факты */
 
 .digits {
@@ -148,8 +149,8 @@
 }
 
 .section-title {
-  margin: 0;
-  margin-top: 100px;
+	margin: 0;
+	margin-top: 100px;
 	line-height: 1.15;
 	font-size: 60px;
 	font-weight: bold;
@@ -182,15 +183,15 @@
 }
 
 .table__heading {
-  margin: 0;
-  margin-bottom: 20px;
+	margin: 0;
+	margin-bottom: 20px;
 	line-height: 1.15;
 	font-size: 24px;
 	font-weight: bold;
 }
 
 .table__text {
-  margin-top: 0;
+	margin-top: 0;
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
@@ -220,8 +221,8 @@ li {
 }
 
 .feynman__title {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	line-height: 1.15;
 	font-size: 120px;
 	font-weight: bold;
@@ -231,8 +232,8 @@ li {
 }
 
 .feynman__subtitle {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	line-height: 51px;
 	font-size: 36px;
 	font-weight: normal;
@@ -278,12 +279,10 @@ li {
 	margin-top: 90px;
 }
 
-
 .section-subtitle_theme_dark {
 	min-width: 60%;
-  text-align: center;
+	text-align: center;
 }
-
 
 .table_theme_dark {
 	display: flex;
@@ -304,14 +303,14 @@ li {
 	margin-top: 80px;
 }
 
-
 .table__heading_theme_dark {
-	line-height: 1.15;
+	color: white;
 }
 
 .table__text_theme_dark {
 	margin-top: 20px;
 }
+
 
 /* Footer */
 
@@ -355,8 +354,8 @@ li {
 }
 
 .footer__autor {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
 	line-height: 25px;
 	font-size: 18px;
 	font-weight: normal;
@@ -367,14 +366,16 @@ li {
 
 .footer__column-heading {
 	margin-top: 0;
-  margin-bottom: 0;
+	margin-bottom: 0;
 	line-height: 30px;
 	font-size: 18px;
 	font-weight: bold;
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .footer__column-links {
+	margin-top: 0;
+	margin-bottom: 0;
 	display: flex;
 	flex-direction: column;
 	line-height: 30px;
@@ -391,13 +392,12 @@ li {
 }
 
 .footer__column-link {
+	margin: 0;
 	display: flex;
 	align-items: center;
 	line-height: 30px;
 	font-size: 18px;
 	font-weight: normal;
-	margin: 0;
-	padding: 0;
 	color: #f2f2f2;
 	text-decoration: none;
 }
