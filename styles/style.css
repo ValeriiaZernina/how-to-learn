@@ -74,7 +74,8 @@
 .header__subtitle {
 	margin-top: 0;
 	margin-bottom: 0;
-	width: 388px;
+	max-width: 388px;
+	width: 100%;
 	line-height: 25px;
 	position: absolute;
 	bottom: 30px;
@@ -107,7 +108,8 @@
 .two-columns__brief {
 	margin-top: 0;
 	margin-bottom: 0;
-	width: 175px;
+	max-width: 175px;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	color: #2f80ed;
@@ -150,7 +152,6 @@
 
 .section-title {
 	margin: 0;
-	margin-top: 100px;
 	line-height: 1.15;
 	font-size: 60px;
 	font-weight: bold;
@@ -192,6 +193,7 @@
 
 .table__text {
 	margin-top: 0;
+  margin-bottom: 0;
 	line-height: 1.2;
 	font-size: 18px;
 	font-weight: normal;
@@ -199,10 +201,6 @@
 
 .table__text:not(:last-child) {
 	margin-bottom: 20px;
-}
-
-li {
-	list-style-type: none;
 }
 
 
@@ -226,7 +224,8 @@ li {
 	line-height: 1.15;
 	font-size: 120px;
 	font-weight: bold;
-	width: 648px;
+	max-width: 648px;
+	width: 100%;
 	text-align: center;
 	margin: 100px auto 70px;
 }
@@ -308,7 +307,7 @@ li {
 }
 
 .table__text_theme_dark {
-	margin-top: 20px;
+	color: white;
 }
 
 
