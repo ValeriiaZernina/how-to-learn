@@ -44,11 +44,7 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed;
-  transition: transform 1.5s ease-out 0s;
-  transform: rotate(360deg);
 }
-
-
 
 .logo {
   width: 183px;
@@ -144,61 +140,6 @@
 
 .two-columns__paragraph:last-child {
   margin-bottom: 0;
-}
-
-/* блок techniques */
-
-.techniques {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-.techniques__section-tittle {
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-}
-.techniques__section-subtitle {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 20px;
-}
-.cards {
- display: flex;
- flex-wrap: wrap;
- padding: 0;
- margin: 0 auto;
- justify-content:flex-end;
- width: 1100px;
-}
-.cards__item {
-  list-style: none;
-  margin-right: auto;
-  width: 250px;
-  margin-top: 60px; 
-}
-.cards__image {
-  width: 160px;
-  height: 160px;
-  border-radius: 100px;
-  margin-top: 60px;
-  margin-bottom: 43px;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-.cards__title {
-  line-height: 1.15px;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-.cards__description {
-  line-height: 23px;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
 }
 
 
