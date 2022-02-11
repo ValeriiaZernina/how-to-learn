@@ -1,0 +1,13 @@
+/* Шапка сайта блок header */
+
+.header {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    overflow: hidden
+    /* выше установили ограничения для секции */
+  }
