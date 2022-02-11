@@ -5,7 +5,7 @@
     font-size: 24px;
     font-weight: normal;
     text-align: left;
-    width: 790px;
+    min-width: 790px;
     margin-top: 50px;
     margin-bottom: 0;
   }
